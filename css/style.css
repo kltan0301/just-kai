@@ -15,7 +15,7 @@ a, h1, h4 {
   border: none;
 }
 .navBrand-custom {
-  font-size: 3em;
+  font-size: 2em;
   background-color: transparent;
   color: white !important;
 }
@@ -44,28 +44,11 @@ a, h1, h4 {
 }
 h1.headerText {
   text-align: center;
-  font-size: 5em;
+  text-shadow: -1px -1px rgba(0,0,0,0.8), 1px 1px rgba(255,255,255,0.5);
+  color: rgba(64, 35, 8, 0.92);
+  font-size: 6em;
 }
-h4.headerText {
-  font-size: 2.5em;
-}
-h1.headerText, h4.headerText
-{
-  white-space:nowrap;
-  overflow:hidden;
-  -webkit-animation: type 3s steps(50, end) ;
-  animation: type 3s steps(50, end);
-}
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@-webkit-keyframes type{
-  from { width: 0; }
-}
-
-section {
+.section {
   height: 700px;
 }
 .toggle-custom {
@@ -81,15 +64,9 @@ button.toggle-custom:hover {
   align-content: center;
   text-align: center;
 }
-#about, #work, #contact{
+.aboutSection, .workSection, .contactSection{
   display: flex;
 }
-#about {
-  background: #403F4C;
-}
-#work {
-  background: #F15025;
-}
-#contact {
-  background: #5B85AA;
+#about, #work, #contact{
+  display: flex;
 }
