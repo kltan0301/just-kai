@@ -13,11 +13,17 @@
   <!--one page scrolling stylesheet-->
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 
-  <!-- Personal stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
 
   <!-- Add fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+  <link rel='shortcut icon' href='images/trex.png' type='image/png' />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Personal stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -28,9 +34,7 @@
   <!-- One page scrolling -->
   <script type="text/javascript" src="scripts/jquery.fullPage.min.js"></script>
 
-  <!--Change font color-->
-  <script src="scripts/invertImgText.js"></script>
-  <!-- -->
+  <!-- Add typing effect -->
   <script src="scripts/typed.js"></script>
   <!--jquery script-->
   <script src="scripts/script.js"></script>
@@ -44,23 +48,23 @@
         <button type="button" class="navbar-toggle toggle-custom" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-        <a class="navbar-brand page-scroll navBrand-custom" href="#main">My Portfolio</a>
+        <a class="navbar-brand page-scroll navBrand-custom navCustom" href="#main"><img class="navIcon" src="images/trex.png" alt="dinosaur"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden">
-            <a id="mainNav" href="#main"></a>
+            <a id="mainNav" class="navCustom" href="#main"></a>
           </li>
           <li>
-            <a id="aboutNav" class="page-scroll" href="#about">About</a>
+            <a id="aboutNav" class="page-scroll navCustom" href="#about">About</a>
           </li>
           <li>
-            <a id="workNav" class="page-scroll" href="#work">Work</a>
+            <a id="workNav" class="page-scroll navCustom" href="#work">Work</a>
           </li>
           <li>
-            <a id="contactNav" class="page-scroll" href="#contact">Contact</a>
+            <a id="contactNav" class="page-scroll navCustom" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -75,12 +79,122 @@
     </div>
     <div class="section aboutSection">
       <div class="aboutText">
+        <img src="images/trex.png" alt="dinosaur">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias veritatis sequi voluptas quia laboriosam. Dolores, incidunt numquam eveniet, doloremque voluptates repellendus at veniam. Nesciunt voluptates excepturi animi eaque unde eum?</p>
+        <h4>Web Developer <span class="orange">| Learning Enthusiast |</span> Curious Tinkerer  <span class="orange">| Tech Geek |</span> Dino Lover</h4>
       </div>
     </div>
-    <div class="section workSection">Section 3</div>
-    <div class="section contactSection">Section 4</div>
+    <div class="section workSection">
+      <div class="slide">
+        <h1 class="projHeader">Ten Ten Four Two</h1>
+        <video loop class="videoThumbnail" src="videos/proj1b.mov">
+        </video>
+        <div class="description">
+          <div class="subDescriptionSection">
+            <h3>Description</h3>
+            <p>A two-player puzzle game. Players drag pieces on the board and earn points for every filled row or column they form. The player with the most points at the end of 5 mins wins!</p>
+          </div>
+          <div class="subDescriptionSection">
+            <h3>Inspiration</h3>
+            <p>The popular mobile one-player puzzle game, 1010!</p>
+          </div>
+          <div class="subDescriptionSection">
+          <h3>Check out the app here:</h3>
+          <a class="link-custom" target="_blank" href="https://github.com/kltan0301/Project1b_Game"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a class="link-custom" target="_blank" href="https://kltan0301.github.io/Project1b_Game/">
+          <i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h1 class="projHeader">Geotrotter</h1>
+        <video loop class="videoThumbnail" src="videos/geotrotter.mov">
+        </video>
+        <div class="description">
+          <div class="subDescriptionSection">
+            <h3>Description</h3>
+            <p>Geotrotter seeks to help users uncover hidden gems around the island. Find an exciting cafe or hangout? Add it to the map and people write reviews. It's still work in progress, so stay tuned for updates!</p>
+          </div>
+          <div class="subDescriptionSection">
+            <h3>Inspiration</h3>
+            <p>Having to comb through multiple review sites to decide on meetup locations.</p>
+          </div>
+          <div class="subDescriptionSection">
+          <h3>Check out the app here:</h3>
+          <a class="link-custom" target="_blank" href="https://github.com/kltan0301/geoproj"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a class="link-custom" target="_blank" href="https://geotrotter.herokuapp.com/">
+          <i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h1 class="projHeader">Jiak Simi?</h1>
+        <video loop class="videoThumbnail" src="videos/jiaksimi.mov">
+        </video>
+        <div class="description">
+          <div class="subDescriptionSection">
+            <h3>Description</h3>
+            <p>'Jiak Simi?' is a Singapore-based food locator website. Get eatery recommendations based on your location, max travel time and travel mode.</p>
+          </div>
+          <div class="subDescriptionSection">
+            <h3>Inspiration</h3>
+            <p>A one hour lunch break and a love for good food.</p>
+          </div>
+          <div class="subDescriptionSection">
+          <h3>Check out the app here:</h3>
+          <a class="link-custom" target="_blank" href="https://github.com/junkaiii/project3"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a class="link-custom" target="_blank" href="http://jiak-simi.herokuapp.com/">
+          <i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h1 class="projHeader">Webble</h1>
+        <video loop class="videoThumbnail" src="videos/ezweb.mov" style="height:250px width: 500px">
+        </video>
+        <div class="description">
+          <div class="subDescriptionSection">
+            <h3>Description</h3>
+            <p>With the Webble app, users can set up a simple website and manage it in a matter of minutes.</p>
+          </div>
+          <div class="subDescriptionSection">
+            <h3>Inspiration</h3>
+            <p>Wanting to understand how content management systems work.</p>
+          </div>
+          <div class="subDescriptionSection">
+          <h3>Check out the app here:</h3>
+          <a class="link-custom" target="_blank" href="https://github.com/junkaiii/project3"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a class="link-custom" target="_blank" href="https://ezweb.herokuapp.com/admin">
+          <i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h1 class="projHeader">To Do App</h1>
+        <video loop class="videoThumbnail" src="videos/todoapp.mov">
+        </video>
+        <div class="description">
+          <div class="subDescriptionSection">
+            <h3>Description</h3>
+            <p>A simple to do application to allow users to keep track of pending and completed tasks.</p>
+          </div>
+          <div class="subDescriptionSection">
+            <h3>Inspiration</h3>
+            <p>Learning a popular front-end framework like Angular 2.</p>
+          </div>
+          <div class="subDescriptionSection">
+          <h3>Check out the app here:</h3>
+          <a class="link-custom" target="_blank" href="https://github.com/kltan0301/ToDoApplication"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="section contactSection">
+      <h1>Contact Me</h1>
+      <a class="link-custom" target="_blank" href="https://github.com/kltan0301/"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      <a class="link-custom" target="_blank" href="mailto:kailin.tan.2010@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+      <a class="link-custom" target="_blank" href="mailto:kailin.tan.2010@gmail.com"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+    </div>
   </div>
 </body>
 

@@ -6,6 +6,13 @@ $(document).ready(function(){
     sectionsColor: ['#000000','#403F4C','#F15025','#5B85AA']
   });
   //typing effect on main page
-  $('.typing').typed({ strings: ["<h1 class='headerText'>Kai Lin<br><span style='font-size:70%'>Fullstack Web Developer</span></h1>"] });
-
+  $('.typing').typed({
+    strings: ["<h1 class='headerText'>Kai Lin<br><span style='font-size:70%'>Fullstack Web Developer</span></h1>"],
+    loop:true,
+    typeSpeed: 50
+  });
+  //start videos
+  $('.videoThumbnail').on('mouseover', function(){
+    this.play();
+  })
 });
