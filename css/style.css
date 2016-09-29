@@ -122,18 +122,22 @@ img {
 .contactSection {
   text-align: center;
 }
-.geotrotter {
-  margin: 0 auto;
-  background: white;
-  display: flex;
-  height: 37vh;
-  width: 53vh;
-}
-.geotrotter video {
-  align-self: center;
-  align-content: center;
-  /*margin: -10px auto;*/
-}
 #about, #work, #contact{
   display: flex;
+}
+@media screen and (max-width: 450px) {
+  .videoThumbnail{
+    display:none;
+  }
+}
+@media screen and (max-width: 740px) {
+  .projHeader{
+    font-size: 1.3em;
+  }
+  .subDescriptionSection h3 {
+    font-size: 1em;
+  }
+  .subDescriptionSection p {
+    font-size: 0.8em;
+  }
 }

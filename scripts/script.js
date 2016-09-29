@@ -3,7 +3,7 @@ $(document).ready(function(){
   //for fullpage scrolling
   $('.fullpage').fullpage({
     anchors:['main','about','work','contact'],
-    sectionsColor: ['#000000','#403F4C','#F15025','#5B85AA']
+    sectionsColor: ['#000000','#403F4C','#5B85AA','#F15025']
   });
   //typing effect on main page
   $('.typing').typed({
