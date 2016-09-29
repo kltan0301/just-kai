@@ -91,8 +91,8 @@ img {
   transform: translateX(10px);
 }
 .videoThumbnail {
-  height: 300px;
-  width: 400px;
+  height: 40vh;
+  width: 50vh;
   margin: -30px auto;
 }
 .description {
@@ -107,7 +107,7 @@ img {
 }
 .projHeader {
   font-weight: bold;
-  margin: 40px 0 20px 0;
+  margin: 10px 0 20px 0;
   color: black;
 }
 .link-custom {
@@ -121,6 +121,18 @@ img {
 }
 .contactSection {
   text-align: center;
+}
+.geotrotter {
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  height: 37vh;
+  width: 53vh;
+}
+.geotrotter video {
+  align-self: center;
+  align-content: center;
+  /*margin: -10px auto;*/
 }
 #about, #work, #contact{
   display: flex;
