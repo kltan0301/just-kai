@@ -11,8 +11,4 @@ $(document).ready(function(){
     loop:true,
     typeSpeed: 50
   });
-  //start videos
-  $('.videoThumbnail').on('mouseover', function(){
-    this.play();
-  })
 });
