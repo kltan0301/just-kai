@@ -227,3 +227,16 @@ html.fp-enabled,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
     height: auto !important;
 }
+@media screen and (max-width: 450px) {
+  .videoThumbnail{
+    display:none;
+  }
+}
+@media screen and (max-width: 740px) {
+  .fp-controlArrow.fp-next {
+    border-width: 10.5px 0 10.5px 10px !important;
+  }
+  .fp-controlArrow.fp-prev {
+    border-width: 10.5px 10px 10.5px 0 !important;
+  }
+}
