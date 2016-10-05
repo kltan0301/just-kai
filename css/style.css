@@ -125,20 +125,38 @@ img {
 #about, #work, #contact{
   display: flex;
 }
-@media screen and (max-width: 450px) {
-  .videoThumbnail{
-    display:none;
-  }
-}
 @media screen and (max-width: 740px) {
   .projHeader{
     font-size: 1.3em;
   }
   .subDescriptionSection h3 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .subDescriptionSection p {
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .videoThumbnail{
+    display:none;
+  }
+}
+@media screen and (max-width: 412px){
+  .about {
+    font-size: 1.5em;
+  }
+  span {
+    display: block;
+  }
+  .projHeader {
+    font-size: 2em;
+    margin-top: -50px;
+  }
+  .subDescriptionSection h3 {
+    font-size: 1.8em;
+  }
+  .subDescriptionSection p {
+    font-size: 1.5em;
   }
 }
 @media screen and (max-height: 412px) {
